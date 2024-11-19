@@ -255,3 +255,67 @@ main .section.highlight {
   margin: 0;
   padding: 40px 0;
 }
+
+   .blue{
+    background-color: #492495;
+   }
+   .b{
+    padding-top: 20px;
+    display: flex;
+   }
+   .side{
+    padding-left: 80px;
+   }
+
+   .gptw{
+    height: 40px;
+   }
+
+   .first-wrapper{
+    padding-left: -200px;
+   }
+
+   .first{
+    padding: 1px;
+    color: white;
+   }
+ 
+
+
+   
+        /* __________ L O G O   S L I D E R __________ */
+        @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(calc(-250px * 7))
+            }
+        }
+
+        .slide-wrapper {
+            height: 400px;
+            margin: auto;
+            overflow: hidden;
+            position: relative;
+            width: auto;
+            background-color: #092032;
+            padding: 16px 0px;
+            
+            .slide {
+                animation: scroll 12s linear infinite;
+                display: flex;
+                width: calc(250px * 14);
+                height: 400px;
+                gap: 20px;
+                justify-content: center;
+                align-items: center;
+            }
+
+
+             .slide div {
+                 width: 300px; 
+        }
+
+        }
