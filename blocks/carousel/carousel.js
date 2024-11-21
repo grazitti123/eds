@@ -28,13 +28,18 @@ async function carousel() {
       track.style.transition = "transform 0.5s ease";
       track.style.transform = `translateX(-${currentSlide * slideWidth}px)`;
   }
-  
+
 
   function moveSlide(direction) {
       currentSlide = (currentSlide + direction * slidesToShow + totalSlides) % totalSlides;
       updateCarousel();
   }
 
+
+
+
+
+  
 }
 
 
